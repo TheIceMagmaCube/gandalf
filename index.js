@@ -10,12 +10,6 @@ client.on("ready", () => {
 	client.user.setActivity("aux échecs avec un Balrog");
 });
 
-client.on("guildMemberAdd", member => {
-	member.createDM().then(channel => {
-		return channel.send("Bienvenue dans **Digido Studio** " + member.displayName);
-	}).catch(console.error)
-});
-
 client.on("message", async message => {
 
 	if(message.author.bot) return;
