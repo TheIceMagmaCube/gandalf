@@ -12,7 +12,7 @@ client.on("ready", () => {
 
 client.on("guildMemberAdd", member => {
 	member.createDM().then(channel => {
-		return channel.send("Bienvenue dans **Digido Studio** " + member.displayName);
+		return channel.send("VOUS NE PASSEREZZZZZZZZZZZZZ PAS !!!!!!!!!");
 	}).catch(console.error)
 });
 
